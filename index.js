@@ -1,8 +1,11 @@
 sap.ui.define([
-
-], function () {
+	"sap/m/Text"
+], function (Text) {
 	"use stict";
 
+	new Text({
+		text: "Hello World"
+	}).placeAt("content");
 
-	alert("UI5 is ready");
+
 });
